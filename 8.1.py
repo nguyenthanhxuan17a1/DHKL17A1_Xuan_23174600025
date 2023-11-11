@@ -1,0 +1,12 @@
+a,b,c,d=eval(input('Nhập a,b,c,d:'))
+print('a,b,c,d=',a,b,c,d)
+max=a
+min=a
+if max <b: max=b
+elif  max <c: max=c
+elif max<d: max=d
+if min>b:min=b
+elif min>c:min=c
+elif min>d: min=d
+print('max=',max)
+print('min=',min)
